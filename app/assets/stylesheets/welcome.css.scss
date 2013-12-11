@@ -1,0 +1,78 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+  background-color: #CC33CC;
+  background-image: url('http://24.media.tumblr.com/9c78328f49f4ab634f1feb1dd170d937/tumblr_mi1937J89d1s0747do1_500.gif');
+  background-repeat: no-repeat;
+  background-position: 107% 2.3%;
+
+}
+h1{
+  text-align:center;
+  width: 105%;
+  font-size: 70px;
+  font-family: "Apple chancery";
+  font-stretch: ultra-expanded;
+  color: #CCFF00;
+  text-shadow: 2px 2px #CCFF66;
+  border-style: dashed;
+  border-width: 3px;
+  border-color: black
+
+}
+
+h2{
+  text-align: center;
+  width: 50%;
+  font-family: "Arial black";
+  color: #E8E8E8;
+  font-variant: small-caps;
+  text-shadow: 3px 3px #6699FF;
+  font-size: 30px;
+  text-decoration: underline;
+
+ }
+h3{
+  float: top;
+  text-align: right;
+  font-family: "Arial black";
+  color: #990000;
+  width: 87%;
+  font-size: 20px;
+  text-decoration: underline;
+  font-variant: small-caps;
+  text-shadow: 1px 1px #330000
+
+}
+h4{
+  text-align: end;
+  font-family: "Arial black";
+  color: #330000;
+  font-size: 20px;
+  text-decoration: underline;
+  font-variant: small-caps;
+  float: bottom;
+
+}
+
+#tweets{
+  width: 57%;
+  float: left;
+  font-size: 110%;
+  font-family: "Gill Sans";
+  color: #F0F0F0;
+
+}
+
+#reviews{
+  width: 28%;
+  float: right;
+  font-family: "Arial black";
+  color: #990033;
+  font-size: 14px;
+
+}
+#Video{
+  float: right
+}

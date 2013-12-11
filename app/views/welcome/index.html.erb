@@ -1,0 +1,22 @@
+<h1> Prime Time in No Time </h1>
+<h2> What the world is tweeting </h2>
+<h3> Summary </h3>
+
+
+<div id = "reviews">
+  <%= @movie.synopsis %>
+
+</div>
+
+<div id = "tweets">
+<% @tweets.each do |tweet| %>
+    <%= link_to image_tag(tweet.user.profile_image_url), "http://twitter.com/#{tweet.user.screen_name}"%> <%= tweet.text %> <br/>
+<% end %>
+</div>
+
+<div id = "Video">
+  <% @videos.each do |video| %>
+ <%= video.embed_html5.html_safe %>
+  <% end %>
+</div>
+
